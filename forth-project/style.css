@@ -1,0 +1,60 @@
+h1 {
+    width: 18%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+
+label {
+    font-size: 25px;
+
+}
+
+.text,
+.email,
+.password {
+    width: 87%;
+    height: 35px;
+    font-size: 17px;
+    padding: 4px;
+}
+
+
+.male {
+    font-size: 20px;
+}
+
+.female {
+    font-size: 20px;
+}
+
+.yes {
+    font-size: 20px;
+
+}
+
+.no {
+    font-size: 20px;
+
+}
+
+.message {
+    width: 88%;
+    height: 160px;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.submit {
+    font-size: 20px;
+}
+
+.reset {
+    font-size: 20px;
+
+}

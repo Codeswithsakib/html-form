@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Forms</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Sign Up Form</h1>
+	<div class="container">
+		<form action="#" method="post" enctype="multipart/form-data">
+			<label for="text">Your Name:</label><br>
+			<input type="text" placeholder="Please Enter Your Name" name="text" id="text" class="text">
+			<br>
+			<label for="email">Your Email:</label><br>
+			<input type="email" placeholder="Please Enter Your Email" name="email" id="email" class="email">
+			<br>
+			<label for="password">Your Password:</label><br>
+			<input type="password" placeholder="Please Enter Your Password" name="password" id="password"
+				class="password">
+			<br>
+			<label for="gender">Your Gender:</label><br>
+			<input type="radio" value="Male" name="gender" id="gender" class="gender"> <span class="male">Male</span>
+			<input type="radio" value="Female" name="gender" id="gender" class="gender"> <span
+				class="female">Female</span>
+			<br>
+			<label for="remember">Remember me:</label><br>
+			<input type="checkbox" value="yes" name="remember" id="remember" class="remember"><span class="yes">Yes</span>
+			<input type="checkbox" value="no" name="remember" id="remember" class="remember"><span class="no">No</span>
+			<br>
+			<label for="message">Your Message:</label>
+			<br>
+			<textarea cols="70" rows="10" placeholder="Please Enter Your Message" name="message" id="message"
+				class="message"></textarea>
+			<br>
+			<input type="submit" name="submit" id="submit" class="submit">
+			<input type="reset" name="reset" id="reset" class="reset">
+
+
+		</form>
+	</div>
+</body>
+
+</html>
